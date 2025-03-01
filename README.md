@@ -2,18 +2,8 @@
 
 NomadLoader is an advanced, Rust-based utility for converting Windows Portable Executable (PE) files to position-independent code (PIC) shellcode. It enables executable content to be executed from any memory location without requiring traditional loading or relocation.
 
-<div align="center">
-  
-```
-███╗   ██╗ ██████╗ ███╗   ███╗ █████╗ ██████╗ ██╗      ██████╗  █████╗ ██████╗ ███████╗██████╗ 
-████╗  ██║██╔═══██╗████╗ ████║██╔══██╗██╔══██╗██║     ██╔═══██╗██╔══██╗██╔══██╗██╔════╝██╔══██╗
-██╔██╗ ██║██║   ██║██╔████╔██║███████║██║  ██║██║     ██║   ██║███████║██║  ██║█████╗  ██████╔╝
-██║╚██╗██║██║   ██║██║╚██╔╝██║██╔══██║██║  ██║██║     ██║   ██║██╔══██║██║  ██║██╔══╝  ██╔══██╗
-██║ ╚████║╚██████╔╝██║ ╚═╝ ██║██║  ██║██████╔╝███████╗╚██████╔╝██║  ██║██████╔╝███████╗██║  ██║
-╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝ 
-```
+![NomadLoader](https://github.com/user-attachments/assets/3e4fffc7-54d8-482e-ac73-b15504e03a06)
 
-</div>
 
 ## Features
 
