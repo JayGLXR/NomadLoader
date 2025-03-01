@@ -3,6 +3,31 @@
 version = 4
 
 [[package]]
+name = "NomadLoader"
+version = "0.1.0"
+dependencies = [
+ "aes",
+ "assert_cmd",
+ "byteorder",
+ "chacha20poly1305",
+ "clap",
+ "env_logger",
+ "goblin",
+ "hmac",
+ "iced-x86",
+ "keystone-engine",
+ "log",
+ "memmap2",
+ "predicates",
+ "rand",
+ "scopeguard",
+ "sha2",
+ "tempfile",
+ "thiserror",
+ "windows",
+]
+
+[[package]]
 name = "aead"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1005,31 +1030,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3268f3d866458b787f390cf61f4bbb563b922d091359f9608842999eaee3943c"
 dependencies = [
  "bitflags 2.9.0",
-]
-
-[[package]]
-name = "NomadLoader"
-version = "0.1.0"
-dependencies = [
- "aes",
- "assert_cmd",
- "byteorder",
- "chacha20poly1305",
- "clap",
- "env_logger",
- "goblin",
- "hmac",
- "iced-x86",
- "keystone-engine",
- "log",
- "memmap2",
- "predicates",
- "rand",
- "scopeguard",
- "sha2",
- "tempfile",
- "thiserror",
- "windows",
 ]
 
 [[package]]
